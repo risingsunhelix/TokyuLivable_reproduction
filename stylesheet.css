@@ -1,0 +1,360 @@
+/* -------------------- CSSは一番下から書き始めてください！ -------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.txts{
+  font-size:10px;
+}
+.txtm{
+  font-size:16px;
+  color:black;
+}
+.txtl{
+  font-size:24px;
+}
+.bluetxt{
+  color:#00A0E9;
+}
+p{
+  text-align: left;
+}
+
+.container {
+  max-width: 1170px;
+  width:100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+}
+
+header{
+  background-color:#00AEEE;
+  height:80px;
+  padding-top:25px;
+}
+.header-left{
+  text-align: left;
+  padding-left: 50px;
+}
+.contact-form {
+  background-image: url(./img/index_im01.png);
+  background-size: cover;
+  height:595px:
+  display:flex;
+
+}
+.ad-wrapper {
+  width:593px;
+
+}
+.ad-wrapper img{
+  margin-bottom: -6px;
+
+}
+
+.contact-wrapper{
+  display:inline-block;
+  height: 500px;
+  vertical-align: top;
+  width:375px;
+}
+
+.contact-box{
+  background-color: white;
+  width:370px;
+  margin-top: -38px;
+}
+.check{
+  margin-left: -35px;
+}
+.step{
+  text-align: top;
+
+}
+.mandatory{
+  display:inline-block;
+  width:50px;
+
+
+}
+.required{
+  text-align: center;
+}
+.mandatory p{
+
+  text-align: center;
+}
+.option-wrapper{
+  background-color: #EEEEEE;
+  border-radius: 3px;
+
+  padding:5px;
+  width:94%;
+  margin-left:10px;
+  margin-right:10px;
+
+
+}
+.option-wrapper-child{
+  vertical-align: middle;
+  margin:3px 0 3px 0;
+
+}
+
+select{
+  width:65%;
+  height:35px;
+  display:inline-block;
+  vertical-align: top;
+
+}
+.mandatory .txts{
+  margin:0 5px;
+}
+.btn{
+  display:inline-block;
+
+  height:50px;
+  background-color: #BBBBBB;
+  width:94%;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:5px;
+  text-align: center;
+  line-height: 50px
+}
+.phone{
+  margin-bottom:10px;
+}
+.w3, .w5{
+  background-color:#EEFAFF;
+  padding:70px 0;
+}
+.w3{
+  padding:70px 0 0 0;
+}
+.w3 .column{
+  margin-bottom:0;
+}
+.w1{
+  background-color:#EEFAFF;
+  padding-bottom:40px;
+}
+.w2, .w4{
+  padding:70px 0;
+}
+.w4{
+}
+.triangle-large{
+  margin-bottom: 30px;
+}
+.reason{
+  margin-top: -30px;
+  margin-bottom:70px;
+}
+.merit-image{
+  max-width:100%;
+  margin:0 auto;
+  text-align: center;
+}
+.merit-right{
+  max-width: 480px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom:-5px;
+}
+.merit-left{
+  display: inline-block;
+  margin-right:30px;
+  width:440px;
+  vertical-align: top;
+  margin-top:50px;
+}
+.w2 .merit-right{
+  max-width: 480px;
+  display: inline-block;
+  margin-top: 60px;
+}
+.w3 .merit-left{
+  margin-top:20px;
+  margin-right: 0;
+  padding-right:0px;
+  width:440px;
+}
+.w5 .merit-right{
+  margin-top:55px;
+}
+.w5 .merit-left{
+  float:left;
+}
+.column{
+  margin-bottom:50px;
+  width:955px;
+  display: inline-block;
+}
+.inner{
+  padding:0 75px 0 75px;
+}
+.contact-form2{
+  background-image:url(./img/index_bg06.jpg);
+  height: 970px;
+}
+.triangle-down{
+  margin-top:-30px;
+  display: inline-block;
+}
+.questionnaire{
+  display: inline-block;
+}
+.ask2{
+  margin-top: -35px;
+}
+.contact-box2{
+  width:960px;
+  background-color: white;
+  display: inline-block;
+  margin-top: -6px;
+}
+.step1, .step2{
+  margin-left:20px;
+  display: block;
+  text-align: left;
+}
+.option-wrapper-child2 select{
+  width:330px;
+  border-radius: 5px;
+  height:35px;
+  float:left;
+}
+.option-wrapper-child3 select{
+  width:330px;
+  border-radius: 5px;
+  height:35px;
+  float:left;
+}
+.ok{
+  float:left;
+  margin-left: 10px;
+}
+.triangle{
+  display: inline-block;
+  margin:5px 0 0 10px;
+}
+.option-wrapper-child2{
+  float:left;
+  height:40px;
+
+}
+.innerchild2-top{
+  padding-top:5px;
+  border-bottom: 2px solid white;
+  height:45px;
+  width:910px;
+  margin: auto;
+  vertical-align: middle;
+}
+.innerchild2-bottom{
+  padding-top:5px;
+  height:45px;
+  width:910px;
+  margin: auto;
+}
+.innerchild3{
+  padding-top:5px;
+  height:45px;
+  width:910px;
+  margin: auto;
+}
+.mandatory2{
+  float:left;
+  width:70px;
+  text-align: center;
+}
+.mandatory2 .txts{
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.option-wrapper2{
+  background-color: #EEEEEE;
+  width:920px;
+  margin: auto;
+  height:45px;
+  border-radius: 5px;
+}
+.option-wrapper3{
+  background-color: #EEEEEE;
+  width:920px;
+  margin: auto;
+  height:90px;
+  border-radius: 5px;
+}
+
+.phone, .mail{
+  width:350px;
+  height:60px;
+  line-height: 60px;
+  color:white;
+  box-shadow:0 2px #888888;
+}
+.inner-btn{
+  text-align: center;
+}
+.footer-up{
+  height: 200px;
+  width:100%;
+  background-color: #F6F6F6;
+
+}
+.ssl{
+  width:650px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top:15px;
+  margin-left:10px;
+}
+.ssl .txts{
+  display:inline-block;
+}
+.norton{
+  float:left;
+  margin-left: 200px;
+}
+.footer-up .txts{
+  font-size: 16px;
+}
+
+.inner2{
+  width:1170px;
+  height: 200px;
+  padding:50px 0;
+  margin:auto;
+}
+
+.footer-bottom{
+    height: 50px;
+    background-color: #00AEEE;
+    vertical-align: middle;
+}
+.footer-bottom .txts{
+  font-size:11px;
+  color:white;
+  line-height: 50px;
+  margin:0 0;
+}
+
+.clear{
+  clear:left;
+}
