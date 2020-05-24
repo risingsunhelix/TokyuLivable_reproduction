@@ -2,9 +2,11 @@
 
 * {
   box-sizing: border-box;
+
 }
 
 body {
+  width:100%;
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
 }
@@ -43,7 +45,9 @@ header{
   background-color:#00AEEE;
   height:80px;
   padding-top:25px;
+  width:100%;
 }
+
 .header-left{
   text-align: left;
   padding-left: 50px;
@@ -51,23 +55,26 @@ header{
 .contact-form {
   background-image: url(./img/index_im01.png);
   background-size: cover;
-  height:595px:
-  display:flex;
-
+  height:595px;
+  width:100%;
 }
+.contact-form .container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .ad-wrapper {
   width:593px;
-
+  display:inline-block;
 }
 .ad-wrapper img{
   margin-bottom: -6px;
-
 }
 
 .contact-wrapper{
   display:inline-block;
   height: 500px;
-  vertical-align: top;
   width:375px;
 }
 
@@ -81,13 +88,10 @@ header{
 }
 .step{
   text-align: top;
-
 }
 .mandatory{
   display:inline-block;
   width:50px;
-
-
 }
 .required{
   text-align: center;
@@ -104,15 +108,11 @@ header{
   width:94%;
   margin-left:10px;
   margin-right:10px;
-
-
 }
 .option-wrapper-child{
   vertical-align: middle;
   margin:3px 0 3px 0;
-
 }
-
 select{
   width:65%;
   height:35px;
@@ -160,9 +160,16 @@ select{
 .triangle-large{
   margin-bottom: 30px;
 }
+
+.needs{
+  width:100%;
+}
 .reason{
   margin-top: -30px;
   margin-bottom:70px;
+}
+.merit{
+  width:100%;
 }
 .merit-image{
   max-width:100%;
@@ -210,6 +217,7 @@ select{
 .contact-form2{
   background-image:url(./img/index_bg06.jpg);
   height: 970px;
+  width:100%;
 }
 .triangle-down{
   margin-top:-30px;
@@ -311,6 +319,9 @@ select{
 }
 .inner-btn{
   text-align: center;
+}
+footer{
+  width:100%;
 }
 .footer-up{
   height: 200px;
